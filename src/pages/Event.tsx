@@ -5,11 +5,12 @@ import { Lesson }   from "../components/Lesson"
 
 export function Event(){
     return(
-    <div>
+      <div className="flex flex-col min-h-screen">
         <Header />
-        <Video />
-        <Sidebar />
-        <Lesson />
+        <main className="flex flex-1">
+          <Video />
+          <Sidebar />
+        </main>
       </div>
     );
 }
