@@ -1,4 +1,4 @@
-import { Logo } from './svg/Logo';
+import { Logo } from './icons/logo';
 export function Header(){
     return(
        <header className='w-full py-5 flex items-center justify-center bg-gray-700 border-b border-gray-600'>
